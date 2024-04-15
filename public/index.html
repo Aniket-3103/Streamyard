@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Streamyard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Welcome to Streamyard</h1>
+        <div class="video-container">
+            <video id="user-video" autoplay muted></video>
+        </div>
+        <div class="input-container">
+            <input type="password" id="key" class="input-field" placeholder="Enter your YouTube stream key">
+            <button id="start" class="button">Start Streaming</button>
+        </div>
+        <div class="status-container" id="status"></div>
+    </div>
+    
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

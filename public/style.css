@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8; 
+    background-image: url('https://rb.gy/jer8i5'); /* 	https://rb.gy/jer8i5  https://rb.gy/9ftcbq*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.5s ease;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+    font-size: 30px;
+}
+
+.video-container {
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+#user-video {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-container {
+    display: flex; /* Arrange elements horizontally */
+    justify-content: space-between; /* Space them evenly */
+}
+
+.input-field {
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    transition: border-color 0.3s ease;
+    padding: 10x 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    flex: 1; /* Make input field flexible */
+}
+
+.input-field:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 15px 25px;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.2s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.status-container {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+    animation: fadeIn 0.5s ease;
+    opacity: 0; /* Initially hidden */
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
