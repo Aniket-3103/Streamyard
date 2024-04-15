@@ -9,6 +9,8 @@ Docker is used to create container and it is where ffmpeg is intalled.**
 
 For front-end, I've used simple **HTML** and **CSS**
 
+ALL THE FILES AND FOLDERS ARE ON MASTER BRANCH.
+
 **To build docker container and to run application, use command: docker compose up**
 
 **Screenshots:**
