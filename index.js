@@ -1,3 +1,5 @@
+import dotenv from 'dotenv';
+dotenv.config();
 import http from 'http';
 import express from 'express';
 import path from 'path';
@@ -89,6 +91,7 @@ io.on('connection', (socket) => {
 });
 
 
-server.listen(3000, () => {
+const port=process.env.PORT || 3000;
+server.listen(port, () => {
     console.log(`Server is running of port 3000`);
 });
