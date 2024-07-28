@@ -9,3 +9,4 @@ services:
       - "8080:8080"
     environment:
       - PORT=8080
+    command: nodemon index.js
