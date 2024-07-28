@@ -11,4 +11,4 @@ WORKDIR /home/app
 
 RUN npm i -g nodemon
 
-CMD nodemon index.js
+CMD ["nodemon", "index.js"]
