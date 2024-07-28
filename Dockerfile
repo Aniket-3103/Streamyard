@@ -11,4 +11,10 @@ WORKDIR /home/app
 
 RUN npm i -g nodemon
 
-CMD ["nodemon", "index.js"]
+COPY package*.json ./
+
+RUN npm install
+
+COPY . .
+
+CMD nodemon index.js
