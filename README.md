@@ -2,6 +2,7 @@
 
 It is live streaming website where user's audio and video is captured from browser and is live streamed on YouTube directly.
 
+Link of the live webite: https://streamyard.onrender.com
 
 **I've used node js, express js, socket.io and docker to build this website.
 Socket.io sends the recorded data to the node js server which then throws it to ffmpeg, from where it goes to YouTube's RTMP server for live streaming.
